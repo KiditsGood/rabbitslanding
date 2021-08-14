@@ -1,0 +1,570 @@
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'SF UI Display Medium', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position:absolute;
+    width:100vw;
+}
+.logo{
+    display: flex;
+    font-size: 18px;
+    margin:19px 0 19px 100px;
+}
+.logo p{
+    margin:24px 0 0 15px;
+}
+.nav-menu{
+    margin: 0 10px 0 30px;
+    width: auto;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    color: #FFFFFFB2;
+}
+.nav li{
+    margin: 0 50px;
+}
+.nav li:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 1s;
+}
+.phone{
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    font-style:normal;
+    margin:0 100px 0 0;
+    font-weight: 700;
+    border:2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius:50px;
+    width:15rem;
+}
+.phone img{
+    margin: 0 25px 0 25px;
+}
+.phone p{
+    text-align:center;
+}
+.main{
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+}
+.trap{
+    width:100vw;
+}
+.main p{
+    font-weight: 800;
+    font-size: 85px;
+    background:#346B2FB2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 101px;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+
+}
+.rabbits {
+    position: relative;
+    left:50vw;
+    bottom:75vh;
+}
+.learn{
+    position: relative;
+    bottom:93vh;
+    left: 5vw;
+    font-size: 30px;
+    color:#249F53;
+    text-decoration: none;
+    font-weight: 500;
+    border:3px solid #249F53;
+    border-radius: 60px;
+    width:19vw;
+    height: 11vh;
+    text-align: center;
+}
+.learn a{
+    vertical-align: middle;
+}
+#about{
+    width: 100vw;
+    color:black;
+}
+.name{
+    width: 100vw;
+    margin-left:6vw;
+    font-weight: 700;
+    font-size: 30px;
+    color:#249F53;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.about_text{
+    display: block;
+    width: 45vw;
+    margin:10vh 0 10vh 3vw;
+}
+.about_text h1{
+    color:#0C4020;
+    font-size: 45px;
+    font-weight: 800;
+}
+.about_text p{
+    color: #346B2F;
+    font-size: 30px;
+}
+.about_img{
+    margin:15vh 3vw 15vh 0;
+}
+.rabbits_products{
+    font-size: 20px;
+    color: #346B2F;
+}
+.rabbit1{
+    background: linear-gradient(180deg, #5AB752 0%, #249F53 100%);
+    width: 7.5vw;
+    height: 15vh;
+    position:relative;
+    top:10vh;
+    left:5vw;
+    text-align: center;
+    border-radius: 150px;
+}
+.rabbit1 img{
+    position: relative;
+    bottom: 2.5vh;
+}
+.rabbit2{
+    background: linear-gradient(180deg, #5AB752 0%, #249F53 100%);
+    width: 7.5vw;
+    height: 15vh;
+    position:relative;
+    left: 19vw;
+    bottom: 5vh;
+    text-align: center;
+    border-radius: 150px;
+ }
+.rabbit2 img{
+    position: relative;
+    bottom: 2.5vh;
+}
+.rabbit3{
+    background: linear-gradient(180deg, #5AB752 0%, #249F53 100%);
+    width: 7.5vw;
+    height: 15vh;
+    position: relative;
+    top:2vh;
+    left: 12vw;
+    text-align: center;
+    border-radius: 150px;
+}
+.rabbit3 img{
+    position: relative;
+    bottom: 2.5vh;
+}
+.products_text{
+    position: relative;
+    width: 55vw;
+    left: 40vw;
+    bottom: 33vh;
+    text-align: right;
+}
+.products_text h1{
+    font-size: 45px;
+    color:#0C4020;
+    font-weight: 800;
+}
+.products_text p{
+    font-size: 30px;
+    color:#346B2F;
+    font-weight: 500;
+}
+#products{
+    overflow: hidden;
+}
+.meet_section{
+    display: flex;
+    justify-content: space-around;
+}
+.meet_text{
+    width: 45vw;
+    display: block;
+    margin:10vh 0 10vh 1vw;
+}
+.meet_text h1{
+    color:#0C4020;
+    font-size: 45px;
+    font-weight: 800;
+}
+.meet_text p{
+    color: #346B2F;
+    font-size: 30px;
+}
+.meet_img{
+    margin:15vh 2vw 15vh 0;
+}
+#our_guys{
+    background: linear-gradient(90deg, #5AB752 0%, #249F53 46.35%, #31C27C 100%);
+}
+#our_guys p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 3vh;
+}
+.carousel{
+    display: flex;
+}
+#contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.connect_form {
+    width:43vw;
+    border:5px solid #5AB752;
+    text-align: center;
+    margin: 12vh 0 0 5vw;
+    border-radius: 20px;
+    height: auto;
+}
+.connect_form h1{
+    color:#0C4020;
+    font-size: 45px;
+    font-weight: 800;
+}
+.connect_form input{
+    width: 34vw;
+    height: 5vh;
+    border-radius: 15px;
+    margin-top: 2vh;
+    border: none;
+    outline: none;
+    background: #E4E4E4;
+}
+.connect_form input,textarea[placeholder]{
+    padding-left:1vw;
+    font-size:20px;
+    color: #888888;
+    font-family: 'SF UI Display Medium', sans-serif;
+}
+.connect_form textarea{
+    width: 34vw;
+    height: 10vh;
+    border-radius: 15px;
+    margin-top: 2vh;
+    border: none;
+    outline: none;
+    background: #E4E4E4;
+}
+.connect_form textarea[placeholder]{
+    padding-top: 1vh;
+}
+.connect_form button{
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #5AB752 0%, #249F53 46.35%, #31C27C 100%);
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    width: 14vw;
+    height: 6vh;
+    margin-bottom: 3vh;
+}
+.contacts_text{
+    margin: 10vh 5vw 0 0;
+    line-height: 0.5;
+}
+.contacts_text p{
+    font-size: 35px;
+    font-weight: 500;
+    color: #346B2F;
+    text-align: right;
+}
+.contacts_text h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #346B2F;
+    text-align: right;
+}
+.contacts_phone{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts_vk{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts_facebook{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 22vh;
+    background: #E4E4E4;
+    border-radius: 75px 75px 0px 0px;
+    overflow-y:hidden;
+}
+.footer p{
+    font-size: 27.65px;
+    color: #7F7F7F;
+}
+.footer_rabbit_info{
+    display: flex;
+}
+.footer_info{
+    margin:4vh 0 2vh 5vw ;
+}
+.contacts_footer{
+    line-height: 0.2;
+    margin:2vh 5vw 2vh 0;
+}
+.contacts_footer_phone{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts_footer_vk{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts_footer_facebook{
+    display: flex;
+    justify-content: flex-end;
+}
+.carousel{
+  overflow: auto;
+
+}
+.guy{
+    margin-left: 5.3vw;
+    text-align: center;
+    line-height: 1;
+}
+@media screen and (width: 1600px) {
+    .name img{
+        width: 42vw;
+    }
+    .nav{
+        font-size: 19px;
+    }
+    .phone{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width:1599px){
+    .name img{
+        width: 40vw;
+    }
+    .nav{
+        font-size: 18px;
+    }
+    .nav-menu{
+        margin: 0 7px 0 20px;
+    }
+    .nav li{
+        margin: 0 45px;
+    }
+    .phone{
+        font-size: 14px;
+    }
+    .logo{
+        font-size: 16px;
+        margin:14px 0 14px 70px;
+    }
+    .logo p{
+        margin:22px 0 0 13px;
+    }
+    .main p{
+        font-size: 78px;
+        background:#346B2FB2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 85px;
+        position: relative;
+        bottom: 300px;
+    }
+    .rabbits {
+        left:45vw;
+        bottom:65vh;
+        width:50%;
+    }
+    .learn{
+        bottom:60vh;
+        left:8vw;
+        font-size: 27px;
+        color:#249F53;
+        width:17vw;
+        height: 11vh;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .name img{
+        width: 40vw;
+    }
+    .nav{
+        font-size: 16px;
+    }
+    .nav-menu{
+        margin: 0 5px 0 18px;
+    }
+    .nav li{
+        margin: 0 42px 2vh 0;
+    }
+    .phone{
+        font-size: 12px;
+        margin:0 20px 2vh;
+    }
+    .logo{
+        font-size: 14px;
+        margin:11px 0 11px 60px;
+    }
+    .logo p{
+        margin:19px 0 0 11px;
+    }
+    .main p{
+        font-size: 70px;
+        background:#346B2FB2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 75px;
+        position: relative;
+        bottom: 250px;
+    }
+    .rabbits {
+        left:50vw;
+        bottom:70vh;
+        width:45%;
+    }
+    .learn{
+        bottom:63vh;
+        left:10vw;
+        font-size: 24px;
+        color:#249F53;
+        width:17vw;
+        height: 11vh;
+        text-align: center;
+    }
+
+    .contacts_text p{
+        font-size: 28px;
+        margin-right: 2vw;
+    }
+    .contacts_text h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 2vw;
+    }
+    .map{
+        width: 80%;
+        margin-left: 9vw;
+    }
+    .footer_rabbit_info{
+        font-size:15px;
+    }
+    .footer_info{
+        margin:2vh 0 2vh 5vw ;
+    }
+    .contacts_footer{
+        line-height: 0;
+        margin:0.5vh 5vw 10vh 0;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .name img{
+        width: 38vw;
+    }
+    .nav{
+        font-size: 14px;
+    }
+    .nav-menu{
+        margin: 0 3px 0 15px;
+    }
+    .nav li{
+        margin: 0 42px 1vh 0;
+    }
+    .phone{
+        font-size: 13px;
+        margin:0 20px 2vh;
+    }
+    .logo{
+        font-size: 14px;
+        margin:11px 0 11px 60px;
+    }
+    .logo p{
+        margin:19px 0 0 11px;
+    }
+    .main p{
+        font-size: 60px;
+        background:#346B2FB2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 75px;
+        position: relative;
+        bottom: 190px;
+    }
+    .rabbits {
+        left:60vw;
+        bottom:60vh;
+        width:40%;
+    }
+    .learn{
+        bottom:45vh;
+        left:10vw;
+        font-size: 20px;
+        color:#249F53;
+        width:17vw;
+        height: 11vh;
+        text-align: center;
+    }
+
+    .contacts_text p{
+        font-size: 28px;
+        margin-right: 2vw;
+    }
+    .contacts_text h1{
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 2vw;
+    }
+    .map{
+        width: 80%;
+        margin-left: 9vw;
+    }
+    .footer_rabbit_info{
+        font-size:15px;
+    }
+    .footer_info{
+        margin:2vh 0 2vh 5vw ;
+    }
+    .contacts_footer{
+        line-height: 0;
+        margin:0.5vh 5vw 10vh 0;
+    }
+}
